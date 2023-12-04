@@ -13,7 +13,7 @@ const updatesArray = [
 
 export default function RandomUpdates() {
     const displayUpdatesArray = updatesArray.map((update, idx) => {
-        return <Info username={update.username} message={update.message} />
+        return <Info username={update.username} message={update.message} key={idx} />
     });
 
     return (

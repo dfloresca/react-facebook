@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Newsfeed from './newsfeed';
 import RandomUpdates from './updates/information';
+import Menu from './menu';
 
 export default function Home() { // exporting the function Home
   return (
@@ -14,11 +15,12 @@ export default function Home() { // exporting the function Home
       </Head>
 
       <main>
+        <Menu />
         <h1 className={styles.title}>
           Pseudo Facebook
         </h1>
 
-        <Image src='/engineer.png' alt='engineer' width='200' height='200'/>
+        {/* <Image src='/engineer.png' alt='engineer' width='200' height='200'/> */}
 
         <p className={styles.description}>
             A version of Facebook

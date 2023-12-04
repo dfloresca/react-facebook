@@ -9,7 +9,7 @@ import Mike from './avatars/mike';
 import Rodrigo from './avatars/rodrigo'
 // data
 const engineersArray = [
-    { username: '@Keya-Moradi', message: "Let's go get some mushrooms!! For CULINARY purposes of vourse", image: <Keya /> },
+    { username: '@Keya-Moradi', message: "Let's go get some mushrooms!! For CULINARY purposes of COURSE", image: <Keya /> },
     { username: '@dfloresca', message: 'Tell me what you eat and I shall tell you what you are - Brillat Savarin', image: <Daniel /> },
     { username: '@soyrvelez', message: 'Who got Daniel talking about food again; oh man', image: <Rodrigo /> },
     { username: '@mike-gustafson', message: 'I think it was Keya', image: <Mike /> },
