@@ -3,7 +3,7 @@ import Image from 'next/image';
 import styles from '../../styles/Inbox.module.css';
 import Message from '../message';
 import Avatar from '../avatar';
-import Menu from '../menu';
+import Menu from '../navbar';
 
 // data
 const engineersArray = [
