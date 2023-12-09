@@ -5,10 +5,12 @@ import styles from "../styles/Games.module.css"
 
 export default function Gaming() {
     return (
-        <div className={styles.container}>
+        <div className={styles.mainContainer}>
             <Navbar />
-            <GamingSidebar />
-            <Gfeed />
+                <div className={styles.subContainer}>
+                    <GamingSidebar />
+                    <Gfeed />
+                </div>
         </div>
     );
 }

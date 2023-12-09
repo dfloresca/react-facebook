@@ -1,5 +1,5 @@
 import GamingCategory from "./gamingCategoryCards"
-
+import styles from '../../styles/Games.module.css'
 const categoryArray = [
     { icon: "controller", name: "all games" },
     { icon: "flag", name: "action" },
@@ -18,7 +18,7 @@ export default function GamingCategories() {
     })
 
     return (
-        <div>
+        <div className={styles.gamingCategories}>
             {displayCategoryArray}
         </div>
     )

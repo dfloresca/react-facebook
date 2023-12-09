@@ -11,7 +11,9 @@ export default function Carousel({ title, games }) {
     return (
         <div className={styles.carousel}>
             <h3>{title}</h3>
-            {displayGameArray}
+            <div className={styles.gameStrip}>
+                {displayGameArray}
+            </div>
         </div>
     )
 }
