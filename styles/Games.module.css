@@ -26,6 +26,7 @@
     flex-direction: column;
     background-color: white;
     justify-content: flex-start;
+    padding: 0 20px;
 }
 
 .gameFeed {
@@ -147,7 +148,7 @@
 }
 
 .sideBarSearch input {
-    width: 100%
+    width: 100%;
 }
 
 .sidebarPlay {
