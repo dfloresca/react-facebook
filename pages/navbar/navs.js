@@ -8,10 +8,16 @@ import styles from "../../styles/Games.module.css"
 export default function Navbar() {
     return (
         <nav className={styles.navbar}>
-            <FacebookLogo />
-            <SearchBar />
-            <Sections />
-            <Options />
+            <div className={styles.navLeft}>
+                <FacebookLogo />
+                <SearchBar />
+            </div>
+            <div className={styles.navCenter}>
+                <Sections />
+            </div>
+            <div className={styles.navRight}>
+                <Options />
+            </div>
         </nav>
     );
 };

@@ -4,20 +4,28 @@ import styles from '../../styles/Games.module.css'
 export default function GamingSideBar() {
     return (
         <div className={styles.sideBar}>
-            <div>
-                <h3>Gaming <span><p>Settings(gear icon)</p></span></h3>
+            <div className={styles.sideBarTitle}>
+                <h3>Gaming</h3>
+                <p>S</p>
+            </div>
+            <div className={styles.sideBarSearch}>
                 <SidebarSearch />
+            </div>
+            <div className={styles.sideBarPlay}>
                 <p>controller icon = Play Games</p>
                 <p>bell icon = Notifications</p>
             </div>
-            <hr />
-            <div>
-                <h4>Your Games <span><p>See All</p></span></h4>
+            <div className={styles.sideBarSaved}>
+                <h4>Your Games</h4>
+                <p>See All</p>
+            </div>
+            <div className={styles.sideBarInfo}>
                 <p>Save a game to Your games to create a shortcut for it here</p>
+            </div>
+            <div className={styles.sideBarSave}>
                 <p>bookmark icon = Save Games</p>
             </div>
-            <hr />
-            <div>
+            <div className={styles.sideBarCategories}>
                 <h4>Categories</h4>
                 <GamingCategories />
             </div>

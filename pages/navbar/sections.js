@@ -5,10 +5,10 @@ export default function Sections() {
     return (
         <div className={styles.navSections}>
             {/* Assuming you have four logo images */}
-            <Image src='/engineer.png' alt='house' width='20' height='20' />
-            <Image src='/engineer.png' alt='house' width='20' height='20' />
-            <Image src='/engineer.png' alt='house' width='20' height='20' />
-            <Image src='/engineer.png' alt='house' width='20' height='20' />
+            <div><Image src='/engineer.png' alt='house' width='40' height='40' /></div>
+            <div><Image src='/engineer.png' alt='house' width='40' height='40' /></div>
+            <div><Image src='/engineer.png' alt='house' width='40' height='40' /></div>
+            <div><Image src='/engineer.png' alt='house' width='40' height='40' /></div>
         </div>
     );
 };
